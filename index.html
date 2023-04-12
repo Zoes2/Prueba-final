@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <nav class="navbar navbar-expand-sm my-fondo fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand mx-5 logotext" href="#">
@@ -29,16 +29,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mx-5">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Quienes Somos</a>
+                            <a class="nav-link text-white" href="#quien">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Destacados</a>
+                            <a class="nav-link text-white" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +71,7 @@
     <section class="fondo d-none d-md-block">
         <div class="container">
             <div class="row text-white">
-                <h2 class="text-center mt-5 text-white">¿QUIENES SOMOS?</h2>
+                <h2 id="quien" class="text-center mt-5 text-white">¿QUIENES SOMOS?</h2>
                 <hr>
                 <div class="col-12 col-md-4 col-lg-4 mt-5">
                     <div class="avioncito">
@@ -126,7 +126,7 @@
             <div class="row text-white">
                 <div class="row w-100 align-items-center">
                     <div class="col text-center">
-                        <h2 class="mt-4">DESTACADOS</h2>
+                        <h2 id="destacados" class="mt-4">DESTACADOS</h2>
                         <hr>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
         <div class="container text-white">
             <div class="row w-100 align-items-center">
                 <div class="col text-center">
-                    <h2 class="mt-4">DESTACADOS</h2>
+                    <h2 id="contacto" class="mt-4">CONTACTO</h2>
                     <hr>
                 </div>
             </div>
@@ -207,7 +207,8 @@
                 </div>
 
                 <div class="text-start mt-3 pb-3">
-                    <button class="btn btn-info text-light">Enviar</button>
+                    <button id="enviarInfo" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-title="Presiona para enviar" class="btn btn-info text-light">Enviar</button>
                 </div>
 
             </form>
