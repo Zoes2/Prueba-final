@@ -68,3 +68,17 @@ p {
 .contacto {
     background-color: black;
 }
+
+/*footer*/
+
+footer{
+    color: white;
+    padding-top: 30px;
+    background-color: #0DCAF0;
+    height: 100px;
+}
+
+footer img {
+    width: 40px;
+    margin-left: 10px;
+}
