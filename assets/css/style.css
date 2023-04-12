@@ -34,3 +34,31 @@ nav {
     padding-top: 5px;
     width: 30px;
 }
+
+/* section.tarjetas*/
+
+.tarjetas{
+    background-color: black;
+}
+
+.card {
+    background-color: #0DCAF0;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-body {
+    padding-bottom: 5px;
+    height: 200px;
+}
+
+p {
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+}
