@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boceto</title>
+    <link rel="shortcut icon" href="assets/img/vivi.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-sm my-fondo fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-5 logotext" href="#">
+                    <img src="assets/img/viajes.svg" alt="suri" class="my-logo">Viajes Chile
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mx-5">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="fondo">
+        <div class="container">
+            <div class="row text-white">
+                <h2 class="text-center mt-5 text-white">¿QUIENES SOMOS?</h2>
+                <hr>
+                <div class="col-12 col-md-4 col-lg-4 mt-5">
+                    <div class="avioncito">
+                        <img src="assets/img/avion.svg"  alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore unde recusandae quis eaque
+                        voluptatum
+                        aut earum odio ipsam consequuntur rerum iste ad tempore, at, quibusdam obcaecati necessitatibus
+                        reprehenderit eius similique!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam, error voluptate ea
+                        aspernatur
+                        animi voluptatem eaque praesentium, unde saepe soluta nemo fugit perferendis assumenda ex ut
+                        accusamus debitis! Asperiores?
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mt-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore unde recusandae quis eaque
+                        voluptatum
+                        aut earum odio ipsam consequuntur rerum iste ad tempore, at, quibusdam obcaecati necessitatibus
+                        reprehenderit eius similique!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam, error voluptate ea
+                        aspernatur
+                        animi voluptatem eaque praesentium, unde saepe soluta nemo fugit perferendis assumenda ex ut
+                        accusamus debitis! Asperiores?
+                    </p>
+                    <div class="avioncito">
+                        <img src="assets/img/avion.svg"  alt="">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mt-5">
+                    <div class="avioncito">
+                        <img src="assets/img/avion.svg"  alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore unde recusandae quis eaque
+                        voluptatum
+                        aut earum odio ipsam consequuntur rerum iste ad tempore, at, quibusdam obcaecati necessitatibus
+                        reprehenderit eius similique!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam, error voluptate ea
+                        aspernatur
+                        animi voluptatem eaque praesentium, unde saepe soluta nemo fugit perferendis assumenda ex ut
+                        accusamus debitis! Asperiores?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>

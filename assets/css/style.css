@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif !important;
+    font-family: 'Lobster', cursive;
+}
+
+/*header*/
+
+.my-logo {
+    width: 50px;
+}
+
+.logotext {
+    color: white !important;
+}
+
+nav {
+    background: transparent !important;
+}
+
+/*section.fondo*/
+
+.fondo {
+    background-color: black;
+}
+.avioncito {
+    background-color: #0DCAF0;
+    text-align: center;
+    height: 40px;
+}
+
+.avioncito img {
+    padding-top: 5px;
+    width: 30px;
+}
